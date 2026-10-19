@@ -1,53 +1,45 @@
-* 
-{
+* {
   box-sizing: border-box;
 }
 
-body 
-{
+body {
   margin: 0;
   padding: 20px;
   font-family: Arial, sans-serif;
 }
 
-h1 
-{
+h1 {
   text-align: center;
 }
 
-.pagination 
-{
+.pagination {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
 }
 
-.pagination-link 
-{
+.pagination-link {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 60px;
   height: 60px;
-  color: #333333;
+  color: #333;
   font-size: 28px;
   text-decoration: none;
-  background-color: #dddddd;
+  background-color: #ddd;
 }
 
-.pagination-link:hover 
-{
+.pagination-link:hover {
   background-color: #bdbdbd;
 }
 
-.pagination-link-active 
-{
-  color: #ffffff;
+.pagination-link-active {
+  color: #fff;
   background-color: #0056ff;
 }
 
-.pagination-link-active:hover 
-{
+.pagination-link-active:hover {
   background-color: #417ffb;
 }
